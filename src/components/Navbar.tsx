@@ -18,22 +18,22 @@ export const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">
-            <Link to="/trabalho-faculdade-mvp//vagas" className="text-foreground hover:text-primary transition-smooth font-medium">
+            <Link to="/trabalho-faculdade-mvp/vagas" className="text-foreground hover:text-primary transition-smooth font-medium">
               Vagas
             </Link>
-            <Link to="/trabalho-faculdade-mvp//candidatos" className="text-foreground hover:text-primary transition-smooth font-medium">
+            <Link to="/trabalho-faculdade-mvp/candidatos" className="text-foreground hover:text-primary transition-smooth font-medium">
               Candidatos
             </Link>
-            <Link to="/trabalho-faculdade-mvp//sobre" className="text-foreground hover:text-primary transition-smooth font-medium">
+            <Link to="/trabalho-faculdade-mvp/sobre" className="text-foreground hover:text-primary transition-smooth font-medium">
               Sobre
             </Link>
             <div className="flex items-center gap-3">
-              <Link to="/trabalho-faculdade-mvp//cadastro-jovem">
+              <Link to="/trabalho-faculdade-mvp/cadastro-jovem">
                 <Button variant="outline" size="sm">
                   Sou Jovem
                 </Button>
               </Link>
-              <Link to="/trabalho-faculdade-mvp//cadastro-empresa">
+              <Link to="/trabalho-faculdade-mvp/cadastro-empresa">
                 <Button variant="hero" size="sm">
                   Sou Empreendedor
                 </Button>
@@ -54,21 +54,21 @@ export const Navbar = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-border">
             <div className="flex flex-col gap-4">
-              <Link to="/trabalho-faculdade-mvp//vagas" className="text-foreground hover:text-primary transition-smooth font-medium">
+              <Link to="/trabalho-faculdade-mvp/vagas" className="text-foreground hover:text-primary transition-smooth font-medium">
                 Vagas
               </Link>
-              <Link to="/trabalho-faculdade-mvp//candidatos" className="text-foreground hover:text-primary transition-smooth font-medium">
+              <Link to="/trabalho-faculdade-mvp/candidatos" className="text-foreground hover:text-primary transition-smooth font-medium">
                 Candidatos
               </Link>
-              <Link to="/trabalho-faculdade-mvp//sobre" className="text-foreground hover:text-primary transition-smooth font-medium">
+              <Link to="/trabalho-faculdade-mvp/sobre" className="text-foreground hover:text-primary transition-smooth font-medium">
                 Sobre
               </Link>
-              <Link to="/trabalho-faculdade-mvp//cadastro-jovem">
+              <Link to="/trabalho-faculdade-mvp/cadastro-jovem">
                 <Button variant="outline" size="sm" className="w-full">
                   Sou Jovem
                 </Button>
               </Link>
-              <Link to="/trabalho-faculdade-mvp//cadastro-empresa">
+              <Link to="/trabalho-faculdade-mvp/cadastro-empresa">
                 <Button variant="hero" size="sm" className="w-full">
                   Sou Empreendedor
                 </Button>
