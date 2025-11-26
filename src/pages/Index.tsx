@@ -24,13 +24,13 @@ const Index = () => {
                 Conectamos jovens em busca de oportunidades com empreendedores locais que precisam de ajuda.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="trabalho-faculdade-mvp/cadastro-jovem">
+                <Link to="/trabalho-faculdade-mvp/cadastro-jovem">
                   <Button variant="hero" size="lg" className="w-full sm:w-auto">
                     <Users className="mr-2 h-5 w-5" />
                     Sou Jovem
                   </Button>
                 </Link>
-                <Link to="trabalho-faculdade-mvp/cadastro-empresa">
+                <Link to="/trabalho-faculdade-mvp/cadastro-empresa">
                   <Button variant="outline" size="lg" className="w-full sm:w-auto">
                     <Briefcase className="mr-2 h-5 w-5" />
                     Sou Empreendedor
@@ -164,12 +164,12 @@ const Index = () => {
             Junte-se a centenas de jovens e empreendedores que já estão construindo o futuro da sua comunidade.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="trabalho-faculdade-mvp/vagas">
+            <Link to="/trabalho-faculdade-mvp/vagas">
               <Button variant="outline" size="lg" className="w-full sm:w-auto bg-primary-foreground text-primary hover:bg-primary-foreground/90">
                 Ver Vagas Disponíveis
               </Button>
             </Link>
-            <Link to="trabalho-faculdade-mvp/candidatos">
+            <Link to="/trabalho-faculdade-mvp/candidatos">
               <Button variant="outline" size="lg" className="w-full sm:w-auto bg-primary-foreground text-primary hover:bg-primary-foreground/90">
                 Ver Candidatos
               </Button>
